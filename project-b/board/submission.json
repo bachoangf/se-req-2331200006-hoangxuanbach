@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T01:56:00.000Z",
+    "savedAt":  "2026-06-04T01:57:00.000Z",
     "groups":  [
                    {
                        "id":  "project-b-blockers",
@@ -23,7 +23,7 @@
     "analysis":  {
                      "ambiguity1":  "Requirement: Only people with a valid .edu email address can create an account. This is vague because it does not define whether any .edu domain is accepted, whether only the university domain counts, how email ownership is verified, or whether alumni and staff are allowed.",
                      "ambiguity2":  "Requirement: Students want auctions, not just fixed prices. This is vague because it does not define bidding duration, minimum increments, reserve prices, winner selection, cancellation rules, or how auctions work when the app cannot process payments.",
-                     "conflictSolution":  "",
+                     "conflictSolution":  "Conflict: The University Legal Team says the app cannot process payments, while the Student Union wants a 2% transaction fee. Resolution: for the MVP, the marketplace must not collect payments or transaction fees. Listings may show payment instructions for cash or third-party apps, but settlement happens outside the app. Student Union funding should use a separate approved donation or sponsorship flow that is not required to complete a marketplace transaction.",
                      "nfr1":  "",
                      "nfr2":  "",
                      "nfr3":  ""
