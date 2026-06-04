@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T02:09:00.000Z",
+    "savedAt":  "2026-06-04T02:10:00.000Z",
     "groups":  [
                    {
                        "id":  "project-c-blockers",
@@ -22,6 +22,16 @@
                         "id":  "project-c-us001",
                         "title":  "As a Student, I want to order food on my phone, so that I can skip the line.",
                         "description":  "Acceptance Criteria:\n- PASS if a student can select menu items, submit an order, and receive pickup status.\n- PASS if the kitchen display receives the order.\n- FAIL if an order can be placed without required item selections.",
+                        "groupId":  "project-c-standard-work",
+                        "status":  "todo",
+                        "type":  "User Story",
+                        "priority":  "High",
+                        "owner":  "Student"
+                    },
+                    {
+                        "id":  "project-c-us002",
+                        "title":  "As a Student, I want to filter allergens, so that unsafe menu items stay hidden.",
+                        "description":  "Acceptance Criteria:\n- PASS if selecting No Peanuts hides peanut-containing items from the menu.\n- PASS if hidden items cannot be added from search or specials.\n- FAIL if an allergen-filtered item is still orderable.",
                         "groupId":  "project-c-standard-work",
                         "status":  "todo",
                         "type":  "User Story",
