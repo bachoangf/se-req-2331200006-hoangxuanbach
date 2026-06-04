@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T02:00:00.000Z",
+    "savedAt":  "2026-06-04T02:01:00.000Z",
     "groups":  [
                    {
                        "id":  "project-b-blockers",
@@ -32,6 +32,16 @@
                         "id":  "project-b-us002",
                         "title":  "As a Student, I want to scan textbook barcodes, so that listings are faster.",
                         "description":  "Acceptance Criteria:\n- PASS if camera barcode scan can populate ISBN when permission is granted.\n- PASS if users can manually edit title and ISBN before posting.\n- FAIL if a failed scan prevents manual entry.",
+                        "groupId":  "project-b-standard-work",
+                        "status":  "todo",
+                        "type":  "User Story",
+                        "priority":  "Medium",
+                        "owner":  "Student"
+                    },
+                    {
+                        "id":  "project-b-us003",
+                        "title":  "As a Student, I want to choose fixed price or auction, so that I can sell flexibly.",
+                        "description":  "Acceptance Criteria:\n- PASS if listing creation supports fixed-price and auction sale type.\n- PASS if auction listings require end time and starting price.\n- FAIL if payment is processed inside the app.",
                         "groupId":  "project-b-standard-work",
                         "status":  "todo",
                         "type":  "User Story",
