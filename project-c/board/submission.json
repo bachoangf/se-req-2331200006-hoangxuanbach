@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T02:12:00.000Z",
+    "savedAt":  "2026-06-04T02:13:00.000Z",
     "groups":  [
                    {
                        "id":  "project-c-blockers",
@@ -57,6 +57,16 @@
                         "type":  "User Story",
                         "priority":  "High",
                         "owner":  "Staff"
+                    },
+                    {
+                        "id":  "project-c-us005",
+                        "title":  "As a Student, I want to receive safe lunch alerts, so that offers match my needs.",
+                        "description":  "Acceptance Criteria:\n- PASS if students can opt in or out of daily-special notifications.\n- PASS if notifications are suppressed when the special conflicts with allergy filters.\n- FAIL if unsafe specials are promoted to filtered students.",
+                        "groupId":  "project-c-standard-work",
+                        "status":  "todo",
+                        "type":  "User Story",
+                        "priority":  "Medium",
+                        "owner":  "Student"
                     }
                 ],
     "analysis":  {
