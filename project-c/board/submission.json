@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T02:05:00.000Z",
+    "savedAt":  "2026-06-04T02:06:00.000Z",
     "groups":  [
                    {
                        "id":  "project-c-blockers",
@@ -22,7 +22,7 @@
                 ],
     "analysis":  {
                      "ambiguity1":  "Requirement: Reduce the cafeteria queue. This is vague because it does not define a measurable target, such as maximum wait time, percentage of mobile orders, pickup workflow, or how success will be measured during lunch rush.",
-                     "ambiguity2":  "",
+                     "ambiguity2":  "Requirement: Mark an item as Sold Out instantly. This is vague because it does not define the allowed update delay, who can change availability, what happens to orders already placed, or how sold-out status syncs to mobile users and kitchen screens.",
                      "conflictSolution":  "",
                      "nfr1":  "",
                      "nfr2":  "",
