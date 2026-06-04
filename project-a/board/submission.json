@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T01:49:00.000Z",
+    "savedAt":  "2026-06-04T01:50:00.000Z",
     "groups":  [
                    {
                        "id":  "project-a-blockers",
@@ -26,6 +26,16 @@
                         "status":  "todo",
                         "type":  "User Story",
                         "priority":  "High",
+                        "owner":  "Student"
+                    },
+                    {
+                        "id":  "project-a-us002",
+                        "title":  "As a Student, I want to drag courses into a calendar, so that I can see schedule fit.",
+                        "description":  "Acceptance Criteria:\n- PASS if dragged classes stay in the selected term or calendar slot.\n- PASS if overlapping meeting times show a warning.\n- FAIL if an early class is placed without showing the required warning.",
+                        "groupId":  "project-a-standard-work",
+                        "status":  "todo",
+                        "type":  "User Story",
+                        "priority":  "Medium",
                         "owner":  "Student"
                     }
                 ],
