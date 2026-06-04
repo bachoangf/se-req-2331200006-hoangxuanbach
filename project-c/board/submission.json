@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T02:06:00.000Z",
+    "savedAt":  "2026-06-04T02:07:00.000Z",
     "groups":  [
                    {
                        "id":  "project-c-blockers",
@@ -23,7 +23,7 @@
     "analysis":  {
                      "ambiguity1":  "Requirement: Reduce the cafeteria queue. This is vague because it does not define a measurable target, such as maximum wait time, percentage of mobile orders, pickup workflow, or how success will be measured during lunch rush.",
                      "ambiguity2":  "Requirement: Mark an item as Sold Out instantly. This is vague because it does not define the allowed update delay, who can change availability, what happens to orders already placed, or how sold-out status syncs to mobile users and kitchen screens.",
-                     "conflictSolution":  "",
+                     "conflictSolution":  "Conflict: Marketing wants broad 11:30 AM push notifications for daily-special discounts, while allergy-sensitive students need unsafe items hidden from their experience. Resolution: daily-special notifications must be opt-in and filtered by allergy preferences. The system suppresses promotions for menu items that conflict with a student allergen filters, includes allergen labels in the notification, and gives students an easy way to disable lunch promotions.",
                      "nfr1":  "",
                      "nfr2":  "",
                      "nfr3":  ""
