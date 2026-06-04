@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T02:03:00.000Z",
+    "savedAt":  "2026-06-04T02:04:00.000Z",
     "groups":  [
                    {
                        "id":  "project-b-blockers",
@@ -67,6 +67,36 @@
                         "type":  "User Story",
                         "priority":  "Medium",
                         "owner":  "Staff"
+                    },
+                    {
+                        "id":  "project-b-nfr-epic-1",
+                        "title":  "NFR Epic 1: Access control and security: Account creation must verify campus eligi",
+                        "description":  "Access control and security: Account creation must verify campus eligibility through approved .edu email rules and protect user contact information.",
+                        "groupId":  "project-b-standard-work",
+                        "status":  "todo",
+                        "type":  "Epic",
+                        "priority":  "Medium",
+                        "owner":  ""
+                    },
+                    {
+                        "id":  "project-b-nfr-epic-2",
+                        "title":  "NFR Epic 2: Safety: Physical meetup workflows must require an approved Safe Exchan",
+                        "description":  "Safety: Physical meetup workflows must require an approved Safe Exchange Zone before users can start listing-specific chat.",
+                        "groupId":  "project-b-standard-work",
+                        "status":  "todo",
+                        "type":  "Epic",
+                        "priority":  "Medium",
+                        "owner":  ""
+                    },
+                    {
+                        "id":  "project-b-nfr-epic-3",
+                        "title":  "NFR Epic 3: Legal and compliance: The platform must not process, hold, or calculat",
+                        "description":  "Legal and compliance: The platform must not process, hold, or calculate required transaction payments or fees for peer-to-peer sales.",
+                        "groupId":  "project-b-standard-work",
+                        "status":  "todo",
+                        "type":  "Epic",
+                        "priority":  "Medium",
+                        "owner":  ""
                     }
                 ],
     "analysis":  {
