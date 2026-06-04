@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T02:13:00.000Z",
+    "savedAt":  "2026-06-04T02:14:00.000Z",
     "groups":  [
                    {
                        "id":  "project-c-blockers",
@@ -67,6 +67,36 @@
                         "type":  "User Story",
                         "priority":  "Medium",
                         "owner":  "Student"
+                    },
+                    {
+                        "id":  "project-c-nfr-epic-1",
+                        "title":  "NFR Epic 1: Reliability and offline resilience: The kitchen display must continue ",
+                        "description":  "Reliability and offline resilience: The kitchen display must continue showing and accepting queued order updates for at least 10 minutes during internet loss, then sync when reconnected.",
+                        "groupId":  "project-c-standard-work",
+                        "status":  "todo",
+                        "type":  "Epic",
+                        "priority":  "Medium",
+                        "owner":  ""
+                    },
+                    {
+                        "id":  "project-c-nfr-epic-2",
+                        "title":  "NFR Epic 2: Health and safety usability: Allergen filters must hide unsafe menu it",
+                        "description":  "Health and safety usability: Allergen filters must hide unsafe menu items consistently across menu browsing, ordering, and promotional notifications.",
+                        "groupId":  "project-c-standard-work",
+                        "status":  "todo",
+                        "type":  "Epic",
+                        "priority":  "Medium",
+                        "owner":  ""
+                    },
+                    {
+                        "id":  "project-c-nfr-epic-3",
+                        "title":  "NFR Epic 3: Timeliness and performance: New orders and sold-out updates must appea",
+                        "description":  "Timeliness and performance: New orders and sold-out updates must appear quickly enough to prevent students from ordering unavailable food during rush periods.",
+                        "groupId":  "project-c-standard-work",
+                        "status":  "todo",
+                        "type":  "Epic",
+                        "priority":  "Medium",
+                        "owner":  ""
                     }
                 ],
     "analysis":  {
