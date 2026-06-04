@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T01:58:00.000Z",
+    "savedAt":  "2026-06-04T01:59:00.000Z",
     "groups":  [
                    {
                        "id":  "project-b-blockers",
@@ -18,7 +18,16 @@
                    }
                ],
     "tickets":  [
-
+                    {
+                        "id":  "project-b-us001",
+                        "title":  "As a Student, I want to verify my .edu email, so that only campus users join.",
+                        "description":  "Acceptance Criteria:\n- PASS if signup requires email verification before account activation.\n- PASS if non-approved domains are rejected with a clear message.\n- FAIL if an unverified user can create listings or chats.",
+                        "groupId":  "project-b-standard-work",
+                        "status":  "todo",
+                        "type":  "User Story",
+                        "priority":  "High",
+                        "owner":  "Student"
+                    }
                 ],
     "analysis":  {
                      "ambiguity1":  "Requirement: Only people with a valid .edu email address can create an account. This is vague because it does not define whether any .edu domain is accepted, whether only the university domain counts, how email ownership is verified, or whether alumni and staff are allowed.",
