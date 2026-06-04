@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T01:47:00.000Z",
+    "savedAt":  "2026-06-04T01:48:00.000Z",
     "groups":  [
                    {
                        "id":  "project-a-blockers",
@@ -24,8 +24,8 @@
                      "ambiguity1":  "Requirement: The system needs to stop students from asking prerequisite questions. This is vague because it does not define whether the system should block registration, hide courses, show warnings, or route questions to advisors, and it lacks rules for transfer credit or in-progress courses.",
                      "ambiguity2":  "Requirement: Warn students about classes that start at 8:00 AM because they may oversleep. This is vague because it does not say whether only exactly 8:00 AM counts, whether warnings apply to any early morning class, or whether students can configure or ignore the warning.",
                      "conflictSolution":  "Conflict: The Registrar wants live seat data to prevent adding full classes, while Advising wants students to plan four years ahead before future section capacity is known. Resolution: separate confirmed-term planning from long-range roadmap planning. For current published terms, the system uses the live database and blocks full sections. For future terms, students add planned course placeholders marked capacity unknown, and the roadmap refreshes availability when the term schedule is published. Advisor prerequisite overrides remain allowed only with a recorded reason and audit log.",
-                     "nfr1":  "",
-                     "nfr2":  "",
-                     "nfr3":  ""
+                     "nfr1":  "Security and privacy: Students must only access their own roadmap and schedule data, and advisor override actions must be role-restricted and audit logged.",
+                     "nfr2":  "Data accuracy and freshness: Current-term course capacity, prerequisite rules, and catalog data must reflect the live registrar database before a class is added.",
+                     "nfr3":  "Usability and accessibility: Students must be able to build a roadmap with clear drag-and-drop calendar feedback, understandable warnings, and readable planning status."
                  }
 }
