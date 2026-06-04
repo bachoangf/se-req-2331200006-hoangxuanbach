@@ -1,0 +1,31 @@
+{
+    "savedAt":  "2026-06-04T02:05:00.000Z",
+    "groups":  [
+                   {
+                       "id":  "project-c-blockers",
+                       "name":  "Blockers",
+                       "color":  "#2563eb"
+                   },
+                   {
+                       "id":  "project-c-standard-work",
+                       "name":  "Standard Work",
+                       "color":  "#059669"
+                   },
+                   {
+                       "id":  "project-c-minors",
+                       "name":  "Minors",
+                       "color":  "#d97706"
+                   }
+               ],
+    "tickets":  [
+
+                ],
+    "analysis":  {
+                     "ambiguity1":  "Requirement: Reduce the cafeteria queue. This is vague because it does not define a measurable target, such as maximum wait time, percentage of mobile orders, pickup workflow, or how success will be measured during lunch rush.",
+                     "ambiguity2":  "",
+                     "conflictSolution":  "",
+                     "nfr1":  "",
+                     "nfr2":  "",
+                     "nfr3":  ""
+                 }
+}
