@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T02:02:00.000Z",
+    "savedAt":  "2026-06-04T02:03:00.000Z",
     "groups":  [
                    {
                        "id":  "project-b-blockers",
@@ -57,6 +57,16 @@
                         "type":  "User Story",
                         "priority":  "High",
                         "owner":  "Student"
+                    },
+                    {
+                        "id":  "project-b-us005",
+                        "title":  "As a Staff, I want to manage exchange zones, so that meetup options stay approved.",
+                        "description":  "Acceptance Criteria:\n- PASS if staff can add, edit, disable, and view Safe Exchange Zones.\n- PASS if disabled zones no longer appear for new chats.\n- FAIL if regular students can change zone definitions.",
+                        "groupId":  "project-b-standard-work",
+                        "status":  "todo",
+                        "type":  "User Story",
+                        "priority":  "Medium",
+                        "owner":  "Staff"
                     }
                 ],
     "analysis":  {
