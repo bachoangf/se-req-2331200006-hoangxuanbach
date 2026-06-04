@@ -1,0 +1,31 @@
+{
+    "savedAt":  "2026-06-04T01:45:00.000Z",
+    "groups":  [
+                   {
+                       "id":  "project-a-blockers",
+                       "name":  "Blockers",
+                       "color":  "#2563eb"
+                   },
+                   {
+                       "id":  "project-a-standard-work",
+                       "name":  "Standard Work",
+                       "color":  "#059669"
+                   },
+                   {
+                       "id":  "project-a-minors",
+                       "name":  "Minors",
+                       "color":  "#d97706"
+                   }
+               ],
+    "tickets":  [
+
+                ],
+    "analysis":  {
+                     "ambiguity1":  "Requirement: The system needs to stop students from asking prerequisite questions. This is vague because it does not define whether the system should block registration, hide courses, show warnings, or route questions to advisors, and it lacks rules for transfer credit or in-progress courses.",
+                     "ambiguity2":  "",
+                     "conflictSolution":  "",
+                     "nfr1":  "",
+                     "nfr2":  "",
+                     "nfr3":  ""
+                 }
+}
