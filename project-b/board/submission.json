@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T02:01:00.000Z",
+    "savedAt":  "2026-06-04T02:02:00.000Z",
     "groups":  [
                    {
                        "id":  "project-b-blockers",
@@ -46,6 +46,16 @@
                         "status":  "todo",
                         "type":  "User Story",
                         "priority":  "Medium",
+                        "owner":  "Student"
+                    },
+                    {
+                        "id":  "project-b-us004",
+                        "title":  "As a Student, I want to select a safe zone before chat, so that meetups are safer.",
+                        "description":  "Acceptance Criteria:\n- PASS if chat stays locked until an approved Safe Exchange Zone is selected.\n- PASS if the selected zone is visible in the conversation.\n- FAIL if users can chat without a meetup zone.",
+                        "groupId":  "project-b-standard-work",
+                        "status":  "todo",
+                        "type":  "User Story",
+                        "priority":  "High",
                         "owner":  "Student"
                     }
                 ],
