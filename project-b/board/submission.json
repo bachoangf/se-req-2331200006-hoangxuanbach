@@ -1,0 +1,31 @@
+{
+    "savedAt":  "2026-06-04T01:55:00.000Z",
+    "groups":  [
+                   {
+                       "id":  "project-b-blockers",
+                       "name":  "Blockers",
+                       "color":  "#2563eb"
+                   },
+                   {
+                       "id":  "project-b-standard-work",
+                       "name":  "Standard Work",
+                       "color":  "#059669"
+                   },
+                   {
+                       "id":  "project-b-minors",
+                       "name":  "Minors",
+                       "color":  "#d97706"
+                   }
+               ],
+    "tickets":  [
+
+                ],
+    "analysis":  {
+                     "ambiguity1":  "Requirement: Only people with a valid .edu email address can create an account. This is vague because it does not define whether any .edu domain is accepted, whether only the university domain counts, how email ownership is verified, or whether alumni and staff are allowed.",
+                     "ambiguity2":  "",
+                     "conflictSolution":  "",
+                     "nfr1":  "",
+                     "nfr2":  "",
+                     "nfr3":  ""
+                 }
+}
