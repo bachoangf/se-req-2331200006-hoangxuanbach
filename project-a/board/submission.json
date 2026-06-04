@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T01:53:00.000Z",
+    "savedAt":  "2026-06-04T01:54:00.000Z",
     "groups":  [
                    {
                        "id":  "project-a-blockers",
@@ -67,6 +67,36 @@
                         "type":  "User Story",
                         "priority":  "High",
                         "owner":  "Student"
+                    },
+                    {
+                        "id":  "project-a-nfr-epic-1",
+                        "title":  "NFR Epic 1: Security and privacy: Students must only access their own roadmap and ",
+                        "description":  "Security and privacy: Students must only access their own roadmap and schedule data, and advisor override actions must be role-restricted and audit logged.",
+                        "groupId":  "project-a-standard-work",
+                        "status":  "todo",
+                        "type":  "Epic",
+                        "priority":  "Medium",
+                        "owner":  ""
+                    },
+                    {
+                        "id":  "project-a-nfr-epic-2",
+                        "title":  "NFR Epic 2: Data accuracy and freshness: Current-term course capacity, prerequisit",
+                        "description":  "Data accuracy and freshness: Current-term course capacity, prerequisite rules, and catalog data must reflect the live registrar database before a class is added.",
+                        "groupId":  "project-a-standard-work",
+                        "status":  "todo",
+                        "type":  "Epic",
+                        "priority":  "Medium",
+                        "owner":  ""
+                    },
+                    {
+                        "id":  "project-a-nfr-epic-3",
+                        "title":  "NFR Epic 3: Usability and accessibility: Students must be able to build a roadmap ",
+                        "description":  "Usability and accessibility: Students must be able to build a roadmap with clear drag-and-drop calendar feedback, understandable warnings, and readable planning status.",
+                        "groupId":  "project-a-standard-work",
+                        "status":  "todo",
+                        "type":  "Epic",
+                        "priority":  "Medium",
+                        "owner":  ""
                     }
                 ],
     "analysis":  {
