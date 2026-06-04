@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T01:52:00.000Z",
+    "savedAt":  "2026-06-04T01:53:00.000Z",
     "groups":  [
                    {
                        "id":  "project-a-blockers",
@@ -57,6 +57,16 @@
                         "type":  "User Story",
                         "priority":  "High",
                         "owner":  "Staff"
+                    },
+                    {
+                        "id":  "project-a-us005",
+                        "title":  "As a Student, I want to view only my roadmap, so that my schedule stays private.",
+                        "description":  "Acceptance Criteria:\n- PASS if a student sees only their own roadmap after login.\n- PASS if direct links to another student roadmap are denied.\n- FAIL if one student can read another student schedule.",
+                        "groupId":  "project-a-standard-work",
+                        "status":  "todo",
+                        "type":  "User Story",
+                        "priority":  "High",
+                        "owner":  "Student"
                     }
                 ],
     "analysis":  {
