@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T01:48:00.000Z",
+    "savedAt":  "2026-06-04T01:49:00.000Z",
     "groups":  [
                    {
                        "id":  "project-a-blockers",
@@ -18,7 +18,16 @@
                    }
                ],
     "tickets":  [
-
+                    {
+                        "id":  "project-a-us001",
+                        "title":  "As a Student, I want to add eligible courses, so that my roadmap follows prerequisites.",
+                        "description":  "Acceptance Criteria:\n- PASS if a course with unmet prerequisites is blocked with a clear reason.\n- PASS if an eligible course can be saved to the roadmap.\n- FAIL if an ineligible course is saved without advisor override.",
+                        "groupId":  "project-a-standard-work",
+                        "status":  "todo",
+                        "type":  "User Story",
+                        "priority":  "High",
+                        "owner":  "Student"
+                    }
                 ],
     "analysis":  {
                      "ambiguity1":  "Requirement: The system needs to stop students from asking prerequisite questions. This is vague because it does not define whether the system should block registration, hide courses, show warnings, or route questions to advisors, and it lacks rules for transfer credit or in-progress courses.",
