@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T01:51:00.000Z",
+    "savedAt":  "2026-06-04T01:52:00.000Z",
     "groups":  [
                    {
                        "id":  "project-a-blockers",
@@ -47,6 +47,16 @@
                         "type":  "User Story",
                         "priority":  "High",
                         "owner":  "Student"
+                    },
+                    {
+                        "id":  "project-a-us004",
+                        "title":  "As a Staff, I want to override prerequisites, so that exceptions are auditable.",
+                        "description":  "Acceptance Criteria:\n- PASS if only authorized staff can create an override.\n- PASS if each override stores student, course, staff user, reason, and timestamp.\n- FAIL if an override can be saved without a reason.",
+                        "groupId":  "project-a-standard-work",
+                        "status":  "todo",
+                        "type":  "User Story",
+                        "priority":  "High",
+                        "owner":  "Staff"
                     }
                 ],
     "analysis":  {
