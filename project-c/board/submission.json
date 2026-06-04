@@ -1,5 +1,5 @@
 {
-    "savedAt":  "2026-06-04T02:10:00.000Z",
+    "savedAt":  "2026-06-04T02:11:00.000Z",
     "groups":  [
                    {
                        "id":  "project-c-blockers",
@@ -37,6 +37,16 @@
                         "type":  "User Story",
                         "priority":  "High",
                         "owner":  "Student"
+                    },
+                    {
+                        "id":  "project-c-us003",
+                        "title":  "As a Staff, I want to mark items sold out, so that students stop ordering them.",
+                        "description":  "Acceptance Criteria:\n- PASS if authorized kitchen staff can mark an item Sold Out from the staff screen.\n- PASS if sold-out items disappear or become unavailable for ordering.\n- FAIL if new orders can include sold-out items.",
+                        "groupId":  "project-c-standard-work",
+                        "status":  "todo",
+                        "type":  "User Story",
+                        "priority":  "High",
+                        "owner":  "Staff"
                     }
                 ],
     "analysis":  {
